@@ -1,2 +1,2 @@
-Clonar o projeto: https://github.com/taburity/flutter_book_floor.git.
+Clonar o projeto: https://github.com/taburity/flutter_book_drift.git.
 Baixar e atualizar dependências.
