@@ -59,9 +59,15 @@ class MyHomePage extends StatelessWidget {
           ),
           Theme(
             data: customThemeData,
-            child: Text('Tema personalizado 4',
-              style: customThemeData.textTheme.bodyMedium)
-          )
+            child: Builder(
+              builder: (context) {
+                return Text(
+                  'Tema personalizado 4',
+                  style: Theme.of(context).textTheme.bodyMedium,
+                );
+              },
+            ),
+          ),
         ]
       ),
     );
