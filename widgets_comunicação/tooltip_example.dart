@@ -21,7 +21,7 @@ class Home extends StatelessWidget {
               Tooltip(
                 message: "Clicar aqui destruirá o universo. Cuidado!",
                 child: ElevatedButton(
-                  child: Text("Não clique!"),
+                  child: Icon(Icons.whatshot),
                   onPressed: () { print("BOOM!"); } ,
                 )
               )
