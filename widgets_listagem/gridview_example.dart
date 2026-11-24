@@ -12,15 +12,15 @@ class MyApp extends StatelessWidget  {
         crossAxisCount : 4, childAspectRatio : 1.0,
         mainAxisSpacing : 4.0, crossAxisSpacing : 4.0,
         children: [
-          GridTile(child : new FlutterLogo()),
-          GridTile(child : new FlutterLogo()),
-          GridTile(child : new FlutterLogo()),
-          GridTile(child : new FlutterLogo()),
-          GridTile(child : new FlutterLogo()),
-          GridTile(child : new FlutterLogo()),
-          GridTile(child : new FlutterLogo()),
-          GridTile(child : new FlutterLogo()),
-          GridTile(child : new FlutterLogo())
+          GridTile(child : FlutterLogo()),
+          GridTile(child : FlutterLogo()),
+          GridTile(child : FlutterLogo()),
+          GridTile(child : FlutterLogo()),
+          GridTile(child : FlutterLogo()),
+          GridTile(child : FlutterLogo()),
+          GridTile(child : FlutterLogo()),
+          GridTile(child : FlutterLogo()),
+          GridTile(child : FlutterLogo())
         ]
       )
     ));
